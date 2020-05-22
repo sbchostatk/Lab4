@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#00838f</item>
+        <item name="colorPrimaryDark">#005662</item>
+        <item name="colorAccent">#4fb3bf</item>
+    </style>
+
+    <style name="DatePickerSleep" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#00838f</item>
+    </style>
+</resources>

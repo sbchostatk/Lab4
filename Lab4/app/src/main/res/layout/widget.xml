@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_widget"
+    android:id="@+id/rl_widget">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="#40E0D0"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_below="@+id/number"
+        android:id="@+id/days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="days left till"
+        android:textSize="24sp"
+        android:textColor="#40E0D0"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_below="@+id/days"
+        android:id="@+id/date"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#40E0D0"
+        android:textStyle="bold">
+    </TextView>
+
+</RelativeLayout>

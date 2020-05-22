@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalendarDialog" parent="android:style/Theme.Translucent">
+        <item name="android:datePickerDialogTheme">@style/DatePickerSleep</item>
+        <item name="colorPrimary">#00838f</item>
+    </style>
+</resources>
